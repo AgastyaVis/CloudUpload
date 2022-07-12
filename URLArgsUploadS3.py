@@ -5,7 +5,6 @@
 # be entered in the code itself.
 # Finally, run the following code and check to see if the files are in your s3 bucket, which they should be
 
-from fileinput import filename
 import os
 import boto3
 import sys
