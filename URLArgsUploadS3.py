@@ -15,7 +15,7 @@ import re
 url = sys.argv[1]
 
 s3 = boto3.client("s3")
-bucketName = "bucketName" # Inpyt your S3 Bucket Name here
+bucketName = "bucketName" # Input your S3 Bucket Name here
 
 download = requests.get(url)
 fileName = ''
